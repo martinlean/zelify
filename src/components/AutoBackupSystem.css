@@ -1,0 +1,42 @@
+.auto-backup-system {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.backup-controls {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.setting {
+  margin-bottom: 15px;
+}
+
+.setting label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+
+.backups-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.backups-list th,
+.backups-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.backups-list th {
+  background-color: #f5f5f5;
+}

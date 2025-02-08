@@ -1,0 +1,46 @@
+.coupon-system {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.new-coupon {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.coupons-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.coupons-list th,
+.coupons-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.coupons-list th {
+  background-color: #f5f5f5;
+}

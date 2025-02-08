@@ -1,0 +1,28 @@
+.api-integration {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.api-key-form {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.api-keys-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.api-keys-list th,
+.api-keys-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.api-keys-list th {
+  background-color: #f5f5f5;
+}

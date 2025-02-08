@@ -1,0 +1,41 @@
+.failover-system {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.servers-status,
+.failover-logs {
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f5f5f5;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.active {
+  color: green;
+}
+
+.status.inactive {
+  color: red;
+}
+
+.status.failed {
+  color: orange;
+}
